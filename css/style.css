@@ -1,0 +1,48 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.808), rgb(51, 51, 146));
+}
+.logo{
+    color:rgb(25, 25, 187);
+    margin-left: 50%;
+    
+    
+}
+.container{
+    border-radius: 2px ;
+    border:solid black 2px;
+    height: 500px;
+    overflow-y: auto;
+}
+.message{
+    background-color: grey;
+    border: solid black 2px;
+    padding: 5px;
+    margin: 2px;   
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    margin:auto;
+}
+#messageINP{
+    height: 34px;
+    width:1000px;
+    background-image: linear-gradient(white,rgb(27, 214, 89));
+    font-weight: 900;
+    color: black;
+}
+.btn{
+    height: 34px;
+    width: 50px;
+    background-color: greenyellow;
+    font-weight: 900;
+}
